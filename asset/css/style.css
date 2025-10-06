@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.full{
+     color: white;
+    background-image: url(../../image/back\ 3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+}
+.header{
+     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+    max-width: 100%;
+
+}
+.header h1 b i{
+    background-color:black;
+}
+.header .logo img{
+    width: 100px;
+    margin: 20px;
+    
+    
+}
+.header nav ul li{
+    float: left;
+    margin: 5px;
+    list-style: none;
+}
+.header nav ul{
+    display: flex;
+}
+.header nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.header nav ul :hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.header .menu .line{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+}
+.header .menu{
+    display: block;
+    cursor: pointer;
+}
+main .hat div img{
+    width: 400px;
+    margin: 50px;
+    max-width:fit-content;
+
+}
+footer p{
+    margin-top: 30px;
+    background-color: black; color: white; padding: 20px 20px 20px;
+}
+main figure {
+    border: 1px solid black;
+    max-width: 400px;
+    /* margin: auto; */
+    text-align: center;
+    /* margin: 20px; */
+
+    
+
+}
+main figure img{
+    object-fit: contain;
+    width: 100%;
+}
+.customers-table{
+    width: 50%;
+}
+/* uncomment line 12 for grid view */
+.customers-table, th, td{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+.customers-table tr{
+    /* comment line 16 for the opp */
+    /* border: 1px solid black; */
+}
+.customers-table tr:hover{
+    background-color: rgb(56, 54, 54);
+}
+.customers-table tr:nth-child(even){
+    background-color: lightgrey;
+}
+.customers-table thead th{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.customers-table tbody td{
+    padding: 20px;
+    text-align: center;
+}
+caption{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.customers-table tbody td:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:700px) {
+    .header nav ul{
+        display: none;
+    }
+}
+@media screen and (max-width:450px){
+    .header{
+        background-color: green;
+    }
+
+}
+@media screen and (min-width:300px){
+    
+}
+    
+    
